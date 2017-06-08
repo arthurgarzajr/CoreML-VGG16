@@ -14,6 +14,7 @@
 		8E2850C21EEA0E84006D089D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2850C01EEA0E84006D089D /* LaunchScreen.storyboard */; };
 		8E2850CD1EEA0E84006D089D /* VGG16Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850CC1EEA0E84006D089D /* VGG16Tests.swift */; };
 		8E2850D81EEA0E84006D089D /* VGG16UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850D71EEA0E84006D089D /* VGG16UITests.swift */; };
+		8E2850EC1EEA10B7006D089D /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8E2850EB1EEA10B7006D089D /* VGG16.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8E2850D31EEA0E84006D089D /* VGG16UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VGG16UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2850D71EEA0E84006D089D /* VGG16UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGG16UITests.swift; sourceTree = "<group>"; };
 		8E2850D91EEA0E84006D089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2850EB1EEA10B7006D089D /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = VGG16.mlmodel; path = ../../../Downloads/VGG16.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8E2850B61EEA0E84006D089D /* VGG16 */ = {
 			isa = PBXGroup;
 			children = (
+				8E2850EB1EEA10B7006D089D /* VGG16.mlmodel */,
 				8E2850B71EEA0E84006D089D /* AppDelegate.swift */,
 				8E2850B91EEA0E84006D089D /* ViewController.swift */,
 				8E2850BB1EEA0E84006D089D /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				8E2850BA1EEA0E84006D089D /* ViewController.swift in Sources */,
 				8E2850B81EEA0E84006D089D /* AppDelegate.swift in Sources */,
+				8E2850EC1EEA10B7006D089D /* VGG16.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R36YMFN7QK;
 				INFOPLIST_FILE = VGG16/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.VGG16;
@@ -432,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R36YMFN7QK;
 				INFOPLIST_FILE = VGG16/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.VGG16;
@@ -518,6 +524,7 @@
 				8E2850DE1EEA0E84006D089D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E2850DF1EEA0E84006D089D /* Build configuration list for PBXNativeTarget "VGG16Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +533,7 @@
 				8E2850E11EEA0E84006D089D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E2850E21EEA0E84006D089D /* Build configuration list for PBXNativeTarget "VGG16UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +542,7 @@
 				8E2850E41EEA0E84006D089D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
